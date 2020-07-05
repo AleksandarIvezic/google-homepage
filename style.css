@@ -23,6 +23,9 @@ nav ul li {
     display: flex;
     padding: 20px 10px;
 }
+nav ul li a {
+    padding: 5px;
+}
 nav li img {
     width: auto;
     height: 1rem;
@@ -30,7 +33,7 @@ nav li img {
 header {
         
    text-align: center;
-   
+   height: 75vh;
 }
 header form input {
     width: 50%;
@@ -73,4 +76,9 @@ footer :nth-child(2) {
 }
 footer ul li {
     padding: 0 5px;
+}
+.btn {
+    background-color: #4386F9;
+    color: #ffffff;
+    
 }
